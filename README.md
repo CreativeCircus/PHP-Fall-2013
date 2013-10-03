@@ -48,10 +48,14 @@ The maximum amount of points in this class you can earn officially is **100**. T
 
 Total available points: **120 points**
 
-## Tests/Quiz/Project
+## Late Policy
 
-Tests are cumulative. Quizzes will be short and based on the prior weeks learning. The project is 30 points of your grade
+There is no such thing as a late policy. Unless a life event happens, you **will not** be able to make up any homework, missed quiz, or missed test.
 
++ Homework is due no later than 6:30 PM EST at the start of the following class
++ Quizzes will start 5 minutes at the start of the class (where defined below)
++ Tests will start 10 minutes at the start of the class (where defined below)
++ Lab project and presentation is due on Week 10
 
 ## Before you start
 
@@ -68,6 +72,10 @@ If you are planning on leaving early or missing class, please notify the instruc
 ## Disruptances
 
 Please handle all phone calls, text messages, or any other outside activites at a different time. Unless your wife is having a baby, kid is sick, or an immediate emergency is imminante, please allocate the 3 hours for the class.
+
+## Tests/Quiz/Project Overview
+
+Tests are cumulative. Quizzes will be short and based on the prior weeks learning. The project is 30 points of your grade. The project will require a presentation of your newly built application. Instructor will explain project in class.
 
 ## Tentative Schedule
 
