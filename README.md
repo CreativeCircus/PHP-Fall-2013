@@ -22,6 +22,43 @@ This is a list of optional materials that *may* help you along the way. These ar
 + [iTerm2](http://www.iterm2.com)
 + [CodeKit](incident57.com/codekit/‎)
 
+## Grading
+
+The maximum amount of points in this class you can earn officially is **100**. There will be 20 extra points given throughout the course.
+
+#### Scale
+
+0 - 60 : Fail
+61 - 70 : D
+71 - 80 : C
+81 - 90 : B
+91 - 100 : A
+
+#### Weight
+
++ Attendance: 10 points
++ Homework 1: 2 points
++ Quiz 1: 5 points
++ Homework 2: 2 points
++ Quiz 2: 5 points
++ Homework 3: 3 points
++ Quiz 3: 5 points
++ Homework 4: 3 points
++ Test 1: 15 points
++ Homework 5: 5 points
++ Quiz 4: 5 points
++ Final Homework: 10 points
++ Quiz 5: 5 points
++ Test 2: 15 points
++ Quarter Project: 30 points
+
+Total: **120 points**
+
+## Tests/Quiz/Project
+
+Tests are cumulative. Quizzes will be short and based on the prior weeks learning. The project is 30 points of your grade
+
+
 ## Before you start
 
 + Make sure you have a domain name with dedicated hosting and a dedicated subdirectory for this class. Even better if you can create a subdomain for this class. Subdomain or subdirectory root should be named **ccphp**
@@ -40,91 +77,83 @@ Please handle all phone calls, text messages, or any other outside activites at 
 
 ## Tentative Schedule
 
-### Week 1 - Introduction to PHP
+### Week 1, October 7 - Introduction to PHP: Built in functions, variables, arrays, conditionals/switch
 
-#### Overview
+Set up local environment, quick overview on source code management, overview of built in functions, variables, arrays, and conditional/switch statements.
 
-Introduction to peers, learning how to simplify learning of PHP (tools of the trade), running a local development environment, basic overview of source code control (git), introduction to PHP using procedual development, coding standards, references.
+##### Assignments
 
-##### Agenda
+None
 
-* Introduction
-* Tools of the Trade
-* Running and configuring a local L/WAMP Server
-* Quick overview/basic fundamentals of source code versioning
-* Introduction to PHP (functions, variables, procedual, built in functions, JSvsPHP)
-* How to use PHP.NET
-* Coding Standards
-* References
+### Week 2, October 14 - include(), GET/POST, server-side validation, sending emails
 
-##### Homework
+How to load pages dynamically, GET/POST data from a form to another page, validating POST data and sending emails using mail().
 
-Develop an index.php page that is HTML5 compliant that introduces you with a link to a contact us page.
+##### Assignments
 
-###### Acceptance Criteria
+None
 
-* index.php - Has a picture of yourself, has your name, and a biography of yourself. It also links to a contact us page. Must have a different background color than contact.php.
-* contact.php - Has 3 text fields: Name, Email, and Comments (multiline field). Has 2 buttons: submit (does nothing), reset (clears text fields)
-* proccess.php - Blank for now
+### Week 3, October 21 - Loops (For / ForEach / While / DoWhite)
 
-### Week 2 - include(), GET/POST, server-side validation, sending emails
+Learn how to use for, foreach, while, dowhile loop conditions.
 
-## Overview###
-Learn how to include differen PHP files across a platform, server-side validation of your contact form, and sending an email using your contact form.
+##### Assignments
 
-##### Agenda
+None
 
-* The include() method
-* The require() method
-* GET/POST data
-* Validating POST data
-* Sending email using mail()
-* Sending email using gmail's smtp server
+### Week 4, October 28 - MySQL Databases and PHP
 
-##### Homework
+Relational database design, connecting to local database, connecting to external database, creating a table, dropping a table, and phpMyAdmin.
 
-With last weeks homework, integrate server side validation and insure the the form sends the email with the data that was input in the form. Transform your website dynamically using include().
+##### Assignments
 
-###### Acceptance Criteria
+None
 
-* index.php - routes user dynamically to requested pages
-* contact.php - loads dynamically
-* proccess.php - must validate text fields from contact.php and insure that Name and Email are required fields. Email must be validated to insure its an email address. Must also send email with a confirmation message stating to the user that the email has been sent successfully. Must also have a graceful fail message.
+### Week 5, November 4 - Submitting to database, Modifying database Tables / Lab Project Introduction
 
-### Week 4 - Integrating with a database
+Submitting data to database, modifying database tables. Introduction to build a database-driven web application with an admin page.
 
-#### Overview
+##### Assignments
 
-Overview of databasing with PHP. Connecting to a database, creating a table, modifying a table, dropping a table with standard queries. Using PhpMyAdmin to manage database.
+None
 
-##### Agenda
+### Week 6, November 11 - Submitting to database, Modifying database Tables / Lab Project Introduction
 
-* Relational database design overview
-* Connecting to local database
-* Connecting to external database
-* Creating a table using PHP
-* Dropping a table using PHP
-* Installing and using PhpMyAdmin
+Submitting data to database, modifying database tables. Introduction to build a database-driven web application with an admin page.
 
-##### Homework
+##### Assignments
 
-With the developed contact us form from last week, integrate database submission with the data that was inputted from the form.
+None
 
-###### Acceptance Criteria
+### Week 7, November 18 - Lab Project Work Day
 
-* proccess.php - submits data consistently to a table with a unique id assigned to each submission
+Work on project with instructor help.
 
-### Week 5 - ubmitting data to SQL, Modifying SQL Tables / Lab Project Introduction
+##### Assignments
 
-#### Overview
+None
 
-Brainstorm application ideas, develop flow chart of pages, develop wireframes.
+### Week 8, November 25 - Lab Project Work **NO CLASS**
 
-##### Homework
+There will be no class this week. Work on your projects individually
 
-Create HTML/CSS template for application wireframe, dynamically load all required pages as just a mockup.
+##### Assignments
 
-###### Acceptance Criteria
+None
 
-* Application has at least 3 user interaction pages
-* Application has an admin section mocked up
+### Week 9, December 2 - Object Oriented PHP, PHP Frameworks / Lab Project Work Day
+
+Learn basics about how object oriented PHP works and writing scalable web applications. Learning about different PHP frameworks. Work on project with instructor help.
+
+##### Assignments
+
+None
+
+### Week 10, December 9 - Lab Project demonstration
+
+Demonstrate semester project/Turn in final projects
+
+##### Assignments
+
++ Quarter project due: 30 points
+
