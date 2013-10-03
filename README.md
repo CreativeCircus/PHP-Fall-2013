@@ -40,6 +40,6 @@ Please handle all phone calls, text messages, or any other outside activites at 
 
 ## Tentative Schedule
 
-| Week - Date | Topic | Description | Assignments Due |
-| --------------|-------------------|----------------|
-| 1 - Oct 7      | Introduction to PHP | Set up local environment, quick overview on source code management, overview of built in functions, variables, arrays, and conditional/switch statements. | None |
+|   | Dates | Topic     | Description    | Assignments Due |
+|---+-------+-----------+----------------|-----------------|
+| 1 | 25-34 |
