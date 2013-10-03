@@ -28,10 +28,14 @@ The maximum amount of points in this class you can earn officially is **100**. T
 
 #### Scale
 
-0 - 60 : Fail
+0 - 60 : F
+
 61 - 70 : D
+
 71 - 80 : C
+
 81 - 90 : B
+
 91 - 100 : A
 
 #### Weight
@@ -55,7 +59,7 @@ Tests are cumulative. Quizzes will be short and based on the prior weeks learnin
 
 **THIS IS AN IMPERATIVE REQUIREMENT**
 
-+ Make sure your computer is up to date and will not be sluggish or cause any issues to you for the next 10 weeks. There are lab computers available for you to use, but if you decide to use your own computer, it is on you to backup at will.
++ Make sure your computer is up to date and will not be sluggish or cause any issues to you for the next 10 weeks. There are lab computers available for you to use, but if you decide to use your own computer, it is your responsibility to backup at will.
 
 ## Attendance Policy
 
@@ -67,7 +71,7 @@ Please handle all phone calls, text messages, or any other outside activites at 
 
 ## Tentative Schedule
 
-### Week 1, October 7 - Introduction to PHP: Built in functions, variables, arrays, conditionals/switch
+#### Week 1, October 7 - Introduction to PHP: Built in functions, variables, arrays, conditionals/switch
 
 Set up local environment, quick overview on source code management, overview of built in functions, variables, arrays, and conditional/switch statements.
 
@@ -75,7 +79,7 @@ Set up local environment, quick overview on source code management, overview of 
 
 None
 
-### Week 2, October 14 - include(), GET/POST, server-side validation, sending emails
+#### Week 2, October 14 - include(), GET/POST, server-side validation, sending emails
 
 How to load pages dynamically, GET/POST data from a form to another page, validating POST data and sending emails using mail().
 
@@ -84,7 +88,7 @@ How to load pages dynamically, GET/POST data from a form to another page, valida
 + Homework 1 due (2 points)
 + Quiz 1 (5 points)
 
-### Week 3, October 21 - Loops (For / ForEach / While / DoWhite)
+#### Week 3, October 21 - Loops (For / ForEach / While / DoWhite)
 
 Learn how to use for, foreach, while, dowhile loop conditions.
 
@@ -93,7 +97,7 @@ Learn how to use for, foreach, while, dowhile loop conditions.
 + Homework 2 due (2 points)
 + Quiz 2 (5 points)
 
-### Week 4, October 28 - MySQL Databases and PHP
+#### Week 4, October 28 - MySQL Databases and PHP
 
 Relational database design, connecting to local database, connecting to external database, creating a table, dropping a table, and phpMyAdmin.
 
@@ -102,7 +106,7 @@ Relational database design, connecting to local database, connecting to external
 + Homework 3 due (3 points)
 + Test 1 (15 points)
 
-### Week 5, November 4 - Submitting to database, Modifying database Tables / Lab Project Introduction
+#### Week 5, November 4 - Submitting to database, Modifying database Tables / Lab Project Introduction
 
 Submitting data to database, modifying database tables. Introduction to build a database-driven web application with an admin page.
 
@@ -111,7 +115,7 @@ Submitting data to database, modifying database tables. Introduction to build a 
 + Homework 4 due (3 points)
 + Quiz 3 (5 points)
 
-### Week 6, November 11 - Submitting to database, Modifying database Tables / Lab Project Introduction
+#### Week 6, November 11 - Submitting to database, Modifying database Tables / Lab Project Introduction
 
 Submitting data to database, modifying database tables. Introduction to build a database-driven web application with an admin page.
 
@@ -120,7 +124,7 @@ Submitting data to database, modifying database tables. Introduction to build a 
 + Homework 5 due (5 points)
 + Quiz 5 (5 points)
 
-### Week 7, November 18 - Lab Project Work Day
+#### Week 7, November 18 - Lab Project Work Day
 
 Work on project with instructor help.
 
@@ -129,7 +133,7 @@ Work on project with instructor help.
 + Homework 6 due (10 points)
 + Test 2 (15 points)
 
-### Week 8, November 25 - Lab Project Work **NO CLASS**
+#### Week 8, November 25 - Lab Project Work **NO CLASS**
 
 There will be no class this week. Work on your projects individually
 
@@ -137,7 +141,7 @@ There will be no class this week. Work on your projects individually
 
 None
 
-### Week 9, December 2 - Object Oriented PHP, PHP Frameworks / Lab Project Work Day
+#### Week 9, December 2 - Object Oriented PHP, PHP Frameworks / Lab Project Work Day
 
 Learn basics about how object oriented PHP works and writing scalable web applications. Learning about different PHP frameworks. Work on project with instructor help.
 
@@ -145,7 +149,7 @@ Learn basics about how object oriented PHP works and writing scalable web applic
 
 None
 
-### Week 10, December 9 - Lab Project demonstration
+#### Week 10, December 9 - Lab Project demonstration
 
 Demonstrate semester project/Turn in final projects
 
