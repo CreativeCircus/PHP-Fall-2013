@@ -1,6 +1,8 @@
 # Web Development 5 - Intro to PHP
 ###### Instructor: Daniel Seripap (daniel.seripap@creativecircus.edu)
 
+*Code is art.*
+
 ## Overview
 
 This is a 10-week class that teaches procedural PHP development with emphasis on MySQL database integration and server-side application development.
