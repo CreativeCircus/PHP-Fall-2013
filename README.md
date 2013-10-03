@@ -36,23 +36,13 @@ The maximum amount of points in this class you can earn officially is **100**. T
 
 #### Weight
 
-+ Attendance: 10 points
-+ Homework 1: 2 points
-+ Quiz 1: 5 points
-+ Homework 2: 2 points
-+ Quiz 2: 5 points
-+ Homework 3: 3 points
-+ Quiz 3: 5 points
-+ Homework 4: 3 points
-+ Test 1: 15 points
-+ Homework 5: 5 points
-+ Quiz 4: 5 points
-+ Final Homework: 10 points
-+ Quiz 5: 5 points
-+ Test 2: 15 points
++ Attendance Cumulative: 10 points
++ Homework Cumulative: 25 points
++ Quiz Cumulative: 25 points
++ Test Cumulative: 30 points
 + Quarter Project: 30 points
 
-Total: **120 points**
+Total available points: **120 points**
 
 ## Tests/Quiz/Project
 
@@ -91,7 +81,8 @@ How to load pages dynamically, GET/POST data from a form to another page, valida
 
 ##### Assignments
 
-None
++ Homework 1 due (2 points)
++ Quiz 1 (5 points)
 
 ### Week 3, October 21 - Loops (For / ForEach / While / DoWhite)
 
@@ -99,7 +90,8 @@ Learn how to use for, foreach, while, dowhile loop conditions.
 
 ##### Assignments
 
-None
++ Homework 2 due (2 points)
++ Quiz 2 (5 points)
 
 ### Week 4, October 28 - MySQL Databases and PHP
 
@@ -107,7 +99,8 @@ Relational database design, connecting to local database, connecting to external
 
 ##### Assignments
 
-None
++ Homework 3 due (3 points)
++ Test 1 (15 points)
 
 ### Week 5, November 4 - Submitting to database, Modifying database Tables / Lab Project Introduction
 
@@ -115,7 +108,8 @@ Submitting data to database, modifying database tables. Introduction to build a 
 
 ##### Assignments
 
-None
++ Homework 4 due (3 points)
++ Quiz 3 (5 points)
 
 ### Week 6, November 11 - Submitting to database, Modifying database Tables / Lab Project Introduction
 
@@ -123,7 +117,8 @@ Submitting data to database, modifying database tables. Introduction to build a 
 
 ##### Assignments
 
-None
++ Homework 5 due (5 points)
++ Quiz 5 (5 points)
 
 ### Week 7, November 18 - Lab Project Work Day
 
@@ -131,7 +126,8 @@ Work on project with instructor help.
 
 ##### Assignments
 
-None
++ Homework 6 due (10 points)
++ Test 2 (15 points)
 
 ### Week 8, November 25 - Lab Project Work **NO CLASS**
 
@@ -155,5 +151,5 @@ Demonstrate semester project/Turn in final projects
 
 ##### Assignments
 
-+ Quarter project due: 30 points
++ Quarter project (30 points)
 
