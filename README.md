@@ -30,15 +30,11 @@ The maximum amount of points in this class you can earn officially is **100**. T
 
 #### Scale
 
-0 - 60 : F
-
-61 - 70 : D
-
-71 - 80 : C
-
-81 - 90 : B
-
-91 - 100 : A
++ 0 - 60 : F
++ 61 - 70 : D
++ 71 - 80 : C
++ 81 - 90 : B
++ 91 - 100 : A
 
 #### Weight
 
@@ -70,10 +66,6 @@ There is no such thing as a late policy. Unless a life event happens, you **will
 ## Attendance Policy
 
 If you are planning on leaving early or missing class, please notify the instructor prior to class. If you miss **2 consecutive classes**, you will fail this course.
-
-## Disruptances
-
-Please handle all phone calls, text messages, or any other outside activites at a different time. Unless your wife is having a baby, kid is sick, or an immediate emergency is imminante, please allocate the 3 hours for the class.
 
 ## Tests/Quiz/Project Overview
 
