@@ -31,7 +31,7 @@
 ### Intro to PHP
 
 + Instantiating PHP `<?php ?>`
-+ End each line of code with semicolon ';'
++ End each line of code with semicolon `;`
 + "Hello World!" `<?php echo('hello world!'); ?>`
 + System Info `<?php phpinfo(); ?>`
 + Commenting
@@ -44,7 +44,7 @@
 /* Multiple line comment
 Usually used for explaining
 a big chunk of code
-or authoring files
+or authoring files (double astriks are IDE standards, usually **)
 */
 ```
 
