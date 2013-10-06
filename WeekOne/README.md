@@ -53,6 +53,7 @@ Variables ARE case-sensitive.
 
 ```php
 $variable = 'value';
+$variable2 = "value2";
 $true_variable = TRUE;
 $false_variable = FALSE;
 $VaRiABLeZaRECaSeSeNSEtIVE = "never write a variable like this";
@@ -61,6 +62,10 @@ echo ($variable);
 echo ($true_variable);
 echo ($false_variable);
 echo ($VaRiABLeZaRECaSeSeNSEtIVE);
+
+// Concatinating
+// You can echo two variables with a period (.)
+echo ($variable . " " . $variable2);
 ```
 + Arrays
 
@@ -68,42 +73,91 @@ echo ($VaRiABLeZaRECaSeSeNSEtIVE);
 $my_array_variable = array(
 	"key"				=>		"value",
 	"dan"				=>		"theman",
-	"falcons"		=>	"terrible"
+	"falcons"		=>	"terrible", // You can end arrays with a leading comma (PHP5)
 );
 
+// Dumps the array with the type
 var_dump($my_array_variable);
 
+// Echos the "key" from the variable
 echo ($my_array_variable["key"]);
 ```
 
 + Creating Function
 
 ```php
-function add(x, y) {
-	echo (x + y);
+// Simple addition function, pass paramaters as variables
+function add($x, $y) {
+	echo ($x + $y);
 	}
+
+// Call the function wherever needed
+add(1, 2); // returns 3
 ```
 
 + Conditions
 
 ```php
+// Setting a variable as a boolean
+$true_condition = TRUE; // True is 1
+$false_condition = FALSE; // False is empty
 
-$true_condition = TRUE;
-
+// Test the expression against the boolean with an IF condition
 if ($true_condition) {
 	echo ("This is a true condition, it passed so this will be echoed");
 }
 
+// The ! means NOT, so if $true_condition was FALSE, this would pass
 if (!$true_condition) {
 	echo ("You should not see this be echoed");
 }
+
+// Ternary
+// PHP Also accepts ternary condition
+$var = 10;
+$var_is_greater_than_two = ($var > 2 ? TRUE : FALSE); // returns true
+
+echo ($var_is_greater_than_two);
+
+/*
+
+	Not in this example, but you can use the following tests:
+	(http://php.net/manual/en/language.operators.comparison.php)
+
+	Equal
+	$a == $b
+
+	Identical
+	$a === $b
+
+	Not Equal
+	$a != $b
+
+	Not Identical
+	$a !== $b
+
+	Greater Than
+	$a > $b
+
+	Less Than
+	$a < $b
+
+	Less than or equal to
+	$a <= $b
+
+	Greater than or equal to
+	$a >= $b
+
+*/
 
 ```
 
 ```php
 
+// set a variable to a number
 $i = 0;
 
+// Test the variable as an elseif condition
 if ($i === 0) {
     echo "i equals 0";
 } elseif ($i === 1) {
@@ -115,6 +169,7 @@ if ($i === 0) {
 ```
 
 + Switching
+Less redudant way of testing conditions. Easier to read and follow versus elseif conditions.
 
 ```php
 
@@ -148,19 +203,89 @@ echo APPNAME;
 + Built in functions
 
 **strlen();**
+Get length of a string.
+
 ```php
 $var = "howmanycharactersinthisvariable?";
 echo(strlen($var));
 ```
 
 **explode();**
+Seperate a list of items into an array.
+
 ```php
 $nfl_teams = "panthers,falcons,giants,patriots";
 $team = explode(",",$nfl_teams);
 echo $team[0];
 ```
 
-+ Standards/Style Guide
+**strip_tags();**
+Strips HTML/Non-safe characters
+
+```php
+$var = "<body><p>HELLO</p> <p>WORLD</p></body>";
+// Strips all HTML
+$var = strip_tags($var);
+$var2 = "<body><p>HELLO</p> <p>WORLD</p></body>";
+// Strips all EXCEPT <p>
+$var2 = strip_tags($var2, "<p>");
+
+echo ($var);
+```
+
+**substr**
+```php
+// Start from which character?
+$var = substr("daniel", 3);
+
+// Start from which and end at which?
+$var2 = substr("daniel", "2", "3");
+
+// Remember that 0 is the first character
+echo $var;
+```
+
+**strtolower(); && strtoupper();**
+
+### Objects
+We will go over objects in Week 9. For an example, here is an object written in PHP:
+
+```php
+// Create a new class
+class My_Class {
+
+	private function inaccessable() {
+		echo "you will never access this outside the class";
+	}
+
+	// Create a function
+	public function world() {
+		// Return a value
+		return 'hello world';
+	}
+
+	public function accessible() {
+		$this->inaccessable();
+	}
+}
+
+// Instantiate the class
+$hello = new My_Class;
+
+// Set a variable to the function in the class
+$hello_world = $hello->world();
+
+// You cannot access private functions in a class
+//$test = $hello->inaccessable();
+
+// But you can add the function inside a public function
+// $test = $hello->accessible();
+
+// Let's see whats in $hello_world, should have been the returned value in the function inside the class.
+echo ($hello_world);
+```
+
+### Standards/Style Guide
 There is no *Standard* way to write PHP- HOWEVER, All code should like like one person wrote it. It is imperative your code is concise and to the point. Someone other than you should be able to look at it, understand it, and debug it at will.
 
-For this class, I will focus on using [Code Igniter Standards](http://ellislab.com/codeigniter/user-guide/general/styleguide.html)
+For this class, I will focus on using [Code Igniter Standards](http://ellislab.com/codeigniter/user-guide/general/styleguide.html).
