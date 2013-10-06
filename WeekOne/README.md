@@ -30,7 +30,11 @@
 + System Info `<?php phpinfo(); ?>
 + Variables `$var``$x = 1`
 + Creating Function
-```function add(x, y) {
+
+```php
+function add(x, y) {
 	echo (x + y);
-	}```
+	}
+```
+
 + Built in functions
