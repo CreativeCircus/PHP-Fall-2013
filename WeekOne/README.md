@@ -66,6 +66,12 @@ echo ($VaRiABLeZaRECaSeSeNSEtIVE);
 // Concatinating
 // You can echo two variables with a period (.)
 echo ($variable . " " . $variable2);
+
+// Variables inside a variable?!
+$foo = "Foo";
+$bar = "Hello, $foo!";
+
+echo ($bar);
 ```
 + Arrays
 
@@ -245,7 +251,23 @@ $var2 = substr("daniel", "2", "3");
 echo $var;
 ```
 
-**strtolower(); && strtoupper();**
+**strtolower(), strtoupper()**
+```php
+$lowercase_variable = strtolower("LOWERCASE");
+$uppercase_variable = strtoupper("uppercase");
+
+echo ($lowercase_variable);
+echo ($uppercase_variable);
+```
+
+### Shorthand
+In PHP, you can use shorthand to streamline your coding
+
+```php
+<?php echo("hello world!"); ?>
+
+<? echo "hello world!"; ?>
+```
 
 ### Objects
 We will go over objects in Week 9. For an example, here is an object written in PHP:
@@ -288,4 +310,4 @@ echo ($hello_world);
 ### Standards/Style Guide
 There is no *Standard* way to write PHP- HOWEVER, All code should like like one person wrote it. It is imperative your code is concise and to the point. Someone other than you should be able to look at it, understand it, and debug it at will.
 
-For this class, I will focus on using [Code Igniter Standards](http://ellislab.com/codeigniter/user-guide/general/styleguide.html).
+For this class, I will focus on using [Code Igniter Standards](http://ellislab.com/codeigniter/user-guide/general/styleguide.html), *to an extent*.
