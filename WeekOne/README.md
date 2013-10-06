@@ -49,15 +49,18 @@ or authoring files
 ```
 
 + Variables/Booleans
+Variables ARE case-sensitive.
 
 ```php
 $variable = 'value';
 $true_variable = TRUE;
 $false_variable = FALSE;
+$VaRiABLeZaRECaSeSeNSEtIVE = "never write a variable like this";
 
 echo ($variable);
 echo ($true_variable);
 echo ($false_variable);
+echo ($VaRiABLeZaRECaSeSeNSEtIVE);
 ```
 + Arrays
 
@@ -156,3 +159,8 @@ $nfl_teams = "panthers,falcons,giants,patriots";
 $team = explode(",",$nfl_teams);
 echo $team[0];
 ```
+
++ Standards/Style Guide
+There is no *Standard* way to write PHP- HOWEVER, All code should like like one person wrote it. It is imperative your code is concise and to the point. Someone other than you should be able to look at it, understand it, and debug it at will.
+
+For this class, I will focus on using (Code Igniter Standards)[http://ellislab.com/codeigniter/user-guide/general/styleguide.html]
