@@ -34,6 +34,19 @@
 + End each line of code with semicolon ';'
 + "Hello World!" `<?php echo('hello world!'); ?>`
 + System Info `<?php phpinfo(); ?>`
++ Commenting
+
+```php
+// Single line comment
+
+# Single line comment
+
+/* Multiple line comment
+Usually used for explaining
+a big chunk of code
+or authoring files
+*/
+```
 
 + Variables/Booleans
 
@@ -118,6 +131,15 @@ switch ($i) {
 		echo ("i is not set");
 }
 
+```
+
++ Constants
+Identifiers for simple value.
+
+```php
+define("APPNAME", "My Application");
+
+echo APPNAME;
 ```
 
 + Built in functions
