@@ -29,11 +29,8 @@
 + "Hello World!" `<?php echo('hello world!'); ?>`
 + System Info `<?php phpinfo(); ?>
 + Variables `$var``$x = 1`
-
-+ Function
-	`function add(x, y) {`
-
-		`echo (x + y);`
-
-	`}`
-
++ Creating Function
+```function add(x, y) {
+	echo (x + y);
+	}```
++ Built in functions
