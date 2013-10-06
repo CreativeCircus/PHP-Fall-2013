@@ -163,4 +163,4 @@ echo $team[0];
 + Standards/Style Guide
 There is no *Standard* way to write PHP- HOWEVER, All code should like like one person wrote it. It is imperative your code is concise and to the point. Someone other than you should be able to look at it, understand it, and debug it at will.
 
-For this class, I will focus on using (Code Igniter Standards)[http://ellislab.com/codeigniter/user-guide/general/styleguide.html]
+For this class, I will focus on using [Code Igniter Standards](http://ellislab.com/codeigniter/user-guide/general/styleguide.html)
