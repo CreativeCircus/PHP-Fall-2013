@@ -31,9 +31,9 @@
 + Variables `$var``$x = 1`
 
 + Function
-	`function add(x, y) {
+	`function add(x, y) {`
 
-		echo (x + y);
+		`echo (x + y);`
 
-	}`
+	`}`
 
