@@ -17,6 +17,22 @@
 		Install PHP
 		Install MySQL
 
+```
+On MAC
+
+1. Open terminal
+2. brew.sh
+3. vi /etc/apache2/httpd.conf
+Look for "php", uncomment that line
+4. sudo apachectl start
+5. brew install mysql
+
+
+ON WINDOWS
+http://www.wampserver.com/en/
+
+```
+
 ### Overview on GIT
 
 + Initalizing a repository `git init`
@@ -98,6 +114,11 @@ boom();
 $my_array_variable = array(
 	"key"				=>		"value",
 	"dan"				=>		"theman",
+	"arrayinsideanarray"		=> array(
+			"octoboer"		=>		"halloween",
+			"november"		=>		"thanksgiving",
+			"december"		=>		"christmas"
+	),
 	"falcons"		=>	"terrible", // You can end arrays with a leading comma (PHP5)
 );
 
@@ -106,6 +127,12 @@ var_dump($my_array_variable);
 
 // Echos the "key" from the variable
 echo ($my_array_variable["key"]);
+
+// Count number of items in arrays
+echo (count($my_array_variable));
+
+
+
 ```
 
 + Creating Function
@@ -233,6 +260,39 @@ Get length of a string.
 ```php
 $var = "howmanycharactersinthisvariable?";
 echo(strlen($var));
+```
+
+**count();**
+Counts elements in an array.
+
+```php
+$a[0] = 1;
+$a[1] = 3;
+$a[2] = 5;
+$result = count($a);
+// $result == 3
+
+$b[0]  = 7;
+$b[5]  = 9;
+$b[10] = 11;
+$result = count($b);
+// $result == 3
+
+$result = count(null);
+// $result == 0
+
+$result = count(false);
+// $result == 1
+
+$food = array('fruits' => array('orange', 'banana', 'apple'),
+              'veggie' => array('carrot', 'collard', 'pea'));
+
+// recursive count
+echo count($food, COUNT_RECURSIVE); // output 8
+
+// normal count
+echo count($food); // output 2
+
 ```
 
 **explode();**
