@@ -67,6 +67,10 @@ a big chunk of code
  * Usually rendered by IDEs
  *
  * Explains a lot about a function or authors for files
+ * @author  Daniel Seripap <daniel.seripap@creativecircus.edu>
+ * @website	http://www.seripap.com
+ * @copyright Daniel Seripap
+ * @version 1.0
  */
 ```
 
