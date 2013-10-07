@@ -60,8 +60,14 @@ http://www.wampserver.com/en/
 /* Multiple line comment
 Usually used for explaining
 a big chunk of code
-or authoring files (double astriks are IDE standards, usually **)
 */
+
+/**
+ * DocBlock
+ * Usually rendered by IDEs
+ *
+ * Explains a lot about a function or authors for files
+ */
 ```
 
 + Shorthand
