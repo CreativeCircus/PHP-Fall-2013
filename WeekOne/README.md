@@ -140,7 +140,7 @@ echo ($my_array_variable["key"]);
 // Count number of items in arrays
 echo (count($my_array_variable));
 
-
+// We will learn about iterating through arrays in Week 3.
 
 ```
 
