@@ -64,6 +64,15 @@ or authoring files (double astriks are IDE standards, usually **)
 */
 ```
 
++ Shorthand
+In PHP, you can use shorthand to streamline your coding
+
+```php
+<?php echo("hello world!"); ?>
+
+<? echo "hello world!"; ?>
+```
+
 + Variables/Booleans
 Variables ARE case-sensitive.
 
@@ -337,15 +346,6 @@ $uppercase_variable = strtoupper("uppercase");
 
 echo ($lowercase_variable);
 echo ($uppercase_variable);
-```
-
-### Shorthand
-In PHP, you can use shorthand to streamline your coding
-
-```php
-<?php echo("hello world!"); ?>
-
-<? echo "hello world!"; ?>
 ```
 
 ### Objects
