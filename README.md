@@ -81,9 +81,9 @@ Set up local environment, quick overview on source code management, overview of 
 
 None
 
-#### Week 2, October 14 - include(), GET/POST, server-side validation, sending emails
+#### Week 2, October 14 - Integrating with HTML, include(), GET/POST, server-side validation, sending emails
 
-How to load pages dynamically, GET/POST data from a form to another page, validating POST data and sending emails using mail().
+Integrating HTML and PHP, how to load pages dynamically, GET/POST data from a form to another page, validating POST data and sending emails using mail().
 
 ##### Assignments
 
