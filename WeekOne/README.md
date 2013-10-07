@@ -109,6 +109,20 @@ $bar = "Hello, $foo!";
 echo ($bar);
 ```
 
++ Creating Function
+http://www.php.net/manual/en/funcref.php
+
+```php
+// Simple addition function, pass paramaters as variables
+function add($x, $y) {
+	echo ($x + $y);
+	}
+
+// Call the function wherever needed
+add(1, 2); // returns 3
+```
+
++ Variable scope
 What about the scope of variables?
 
 ```php
@@ -128,6 +142,7 @@ boom();
 ```
 
 + Arrays
+http://www.php.net/manual/en/book.array.php
 
 ```php
 $my_array_variable = array(
@@ -154,19 +169,10 @@ echo (count($my_array_variable));
 
 ```
 
-+ Creating Function
-
-```php
-// Simple addition function, pass paramaters as variables
-function add($x, $y) {
-	echo ($x + $y);
-	}
-
-// Call the function wherever needed
-add(1, 2); // returns 3
-```
-
 + Conditions
+http://php.net/manual/en/control-structures.if.php
+
+**NOTE:** We will go loops in week 3.
 
 ```php
 // Setting a variable as a boolean
@@ -240,7 +246,7 @@ if ($i === 0) {
 ```
 
 + Switching
-Less redudant way of testing conditions. Easier to read and follow versus elseif conditions.
+http://www.php.net/manual/en/control-structures.switch.php
 
 ```php
 
