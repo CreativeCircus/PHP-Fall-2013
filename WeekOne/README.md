@@ -73,6 +73,25 @@ $bar = "Hello, $foo!";
 
 echo ($bar);
 ```
+
+What about the scope of variables?
+
+```php
+$global_variable = "this is a global variable";
+
+function boom()
+{
+	$global_variable; // Local variable
+	echo $global_variable; // breaks
+
+	global $global_variable; // global keyword to reference global variable
+	echo $global_variable; // echos
+}
+
+boom();
+
+```
+
 + Arrays
 
 ```php
