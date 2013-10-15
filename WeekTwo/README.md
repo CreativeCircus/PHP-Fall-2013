@@ -2,7 +2,7 @@
 
 + Homework 1 DUE in the repository
 + (Quiz 1)[http://bit.ly/1fwcV5Y]
-+ quiz password: jinglebell
++ quiz password: jinglebells
 + Review git/creating functions/variables
 
 Integrating HTML and PHP, how to load pages dynamically, GET/POST data from a form to another page, validating POST data and sending emails using mail().
