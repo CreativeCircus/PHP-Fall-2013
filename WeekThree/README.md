@@ -5,6 +5,31 @@
 + Review git, include(), $_GET/$_POST
 + Example of integrating include/$_GET
 
+# Review
+
+## Rembmer for git
+
+```
+git add .
+git commit -m "Message"
+git push
+```
+
+## include()
+
+Include includes an external file to a page, allowing you to modularize your page.
+
+## $_GET/$_POST
+
+These two are superglobal variables that are accessible inside and outside the scope of functions.
+
+$_GET[] pulls URL querys
+$_POST[] pulls data submitted through forms
+
+## Integrating include(), $_GET/$_POST
+
+See example folder.
+
 ### While
 
 Simplest type of loop in PHP.
