@@ -87,3 +87,31 @@ foreach ($arr as &$value) {
 ### Breaking
 
 Break ends execution of the loops
+
+```php
+<?php
+$arr = array(1, 2, 3, 4);
+foreach ($arr as &$value) {
+    $value = $value * 2;
+    echo $value . "\n";
+    break;
+}
+?>
+```
+
+### continue
+
+continue is used within looping structures to skip the rest of the current loop iteration and continue execution at the condition evaluation and then the beginning of the next iteration.
+
+```php
+<?php
+    // Prints 1, skips 2, prints 3
+    $arr = array(1, 2, 3);
+    foreach($arr as $number) {
+      if($number == 2) {
+        continue;
+      }
+      print $number;
+    }
+?>
+```
