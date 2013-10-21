@@ -1,0 +1,23 @@
+1. TRUE**/FALSE
+The superglobals $_GET[] and $_POST[] are arrays by default?
+---------------
+2. Which superglobal variable do I use if I want to request URL Queries?
+A. $_QUERY[]
+B. include();
+C. $_POST[]
+D. $_GET[];**
+---------------
+3. What is the preferred superglobal if I am sending data through a web form?
+A. echo();
+B. $_POST[];**
+C. include();
+D. $_GET[];
+---------------
+4. What is the main advantages of $_POST[] vs $_GET[]?
+A. $_POST[] is more secure than $_GET[]**
+B. $_GET[] is more secure that $_POST[]
+C. None, they are both as good as the other
+D. $_POST[] can be used out of scope while $_GET[] cannot
+---------------
+5. TRUE**/FALSE
+The mail() function will send an email if a webserver has SMTP email set up
