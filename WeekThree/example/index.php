@@ -27,13 +27,31 @@
 
 		$url = (isset($_GET['id'])) ? $_GET['id'] : '';
 
-		if ($url === "") {
-			echo "This is the default page with no query, click to navigate to new page, using this template";
-		} else {
-			include ($url.'.html');
+		// Integrating a loop
+		switch ($url) {
+			case "test":
+			include ('test.html');
+			break;
+
+			case "another":
+			include ('another.html');
+			break;
+
+			default:
+			include ('default.html');
+			break;
 		}
+
+		// if ($url === "") {
+		// 	echo "This is the default page with no query, click to navigate to new page, using this template";
+		// } else {
+		// 	include ($url.'.html');
+		// }
+
+
 
 		?>
 	</section>
+
 </body>
 </html>
