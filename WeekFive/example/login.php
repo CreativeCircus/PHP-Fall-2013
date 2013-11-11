@@ -16,6 +16,8 @@ while ($row = mysql_fetch_array($results)) {
 			$successEmail = '';
 			$successFooter = '';
 		}
+	} else {
+		$match = false;
 	}
 }
 
