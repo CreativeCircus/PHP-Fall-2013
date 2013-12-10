@@ -1,9 +1,4 @@
-<?php include('sql.php');
-session_start();
-
-// $_SESSION['isLoggedIn']
-// $_SESSION['username']
-
+<?php include('session.php');
 
 /* Check if $_SESSION is even set */
 if (isset($_SESSION['isLoggedIn'])) {
@@ -25,9 +20,6 @@ if ($_SESSION['isLoggedIn'] === FALSE) {
 		// $email = $_POST['email'];
 		// $footer = $_POST['footer'];
 
-	// Set my salt
-		$salt = "JBIa8s7dy@3290IAKSDnj129312eASDOJa";
-
 	// Encrypt password recieved from form
 		$encryptedPass = md5($salt . $password);
 
@@ -40,6 +32,9 @@ if ($_SESSION['isLoggedIn'] === FALSE) {
 			if ($row['username'] === $username) {
 				if ($row['password'] === $encryptedPass) {
 					$_SESSION['isLoggedIn'] = TRUE;
+
+					$_SESSION['user_id'] = $row['id'];
+
 					$_SESSION['username'] = $row['username'];
 					$_SESSION['email'] = $row['email'];
 					// $_SESSION['footer'] = $row['custom_footer'];
@@ -56,7 +51,7 @@ if ($_SESSION['isLoggedIn'] === FALSE) {
 		$_SESSION['msg'] = "You are not coming from the login form";
 	}
 } else {
-	$_SESSION['msg'] = "You are authethnicated";
+	$_SESSION['msg'] = "You are authenticated";
 }
 
 ?>
@@ -84,12 +79,7 @@ if ($_SESSION['isLoggedIn'] === FALSE) {
 
 if ($_SESSION['isLoggedIn'] === TRUE) {
 
-echo "Your username: " . $_SESSION['username'];
-echo "<br>";
-echo "Your email: " . $_SESSION['email'];
-echo "<br>";
-echo "<a href='destroy.php'>Logout</a>";
-
+header ('Location: index.php?id=comments');
 
 } else {
 	echo "You are not logged in.";
@@ -100,3 +90,4 @@ echo "<a href='destroy.php'>Logout</a>";
 
 </body>
 </html>
+

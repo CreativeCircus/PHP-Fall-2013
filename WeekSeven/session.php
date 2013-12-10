@@ -8,4 +8,6 @@ if (!$connection) {
 // Select database
 mysql_select_db("example") or die(mysql_error());
 
+// Start the session
+session_start();
 ?>
